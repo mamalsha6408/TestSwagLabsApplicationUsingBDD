@@ -1,2 +1,4 @@
-package PageObjects;public class userLoginPage {
+package PageObjects;
+
+public class userLoginPage {
 }
