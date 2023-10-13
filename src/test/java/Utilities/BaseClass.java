@@ -1,5 +1,6 @@
 package Utilities;
 
+import PageObjects.UserLoginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,13 +17,19 @@ public class BaseClass {
     public static WebDriver driver;
     public static WebDriverWait wait;
     public static FileInputStream fi;
-    public static Properties properties;
+    public static Properties prop;
+
+    public static UserLoginPage userLoginPage;
+
 
     public static void setUpDriver(){
         if(driver==null){
             WebDriverManager.chromedriver().setup();
-            System.setProperty("webdriver.chrome.driver","src/test/resources/Drivers/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "src/test/resources/Drivers/chromedriver.exe");
             driver=new ChromeDriver();
+//            WebDriverManager.chromedriver().setup();
+//            System.setProperty("webdriver.chrome.driver","src/test/resources/Drivers/chromedriver.exe");
+//            driver=new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             wait=new WebDriverWait(driver,30);
@@ -37,8 +44,9 @@ public class BaseClass {
 
     public static void setupPropertiesFiles() throws IOException {
         fi=new FileInputStream("src/test/resources/testData.properties");
-        properties=new Properties();
-        properties.load(fi);
+        prop=new Properties();
+        prop.load(fi);
+
     }
 
 

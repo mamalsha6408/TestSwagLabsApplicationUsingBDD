@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d416b734-220f-4ad3-90f6-81cd5336eb25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/BaseClass.java" afterDir="false" />
+    <list default="true" id="d416b734-220f-4ad3-90f6-81cd5336eb25" name="Changes" comment="second commit, in this stage, i developed base class and hook file.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/userLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/userLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/testRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/userLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/UserLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/userLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/userLoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/UserLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/UserLogin.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/report-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/report-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testData.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +25,30 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="sub2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mamalsha6408&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d3ac3d85-103f-46af-b889-2719c7573983" />
+        <option name="url" value="https://github.com/mamalsha6408/TestSwagLabsApplicationUsingBDD.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2WX9h1EX51kGKkT9pW1RKAisJrj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,19 +57,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Lenovo.DESKTOP-I0HH4JP/IdeaProjects/TestSwagLabs/src/test/resources/Drivers",
-    "onboarding.tips.debug.path": "C:/Users/Lenovo.DESKTOP-I0HH4JP/IdeaProjects/TestSwagLabs/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo.DESKTOP-I0HH4JP/IdeaProjects/TestSwagLabs/src/test/resources/Drivers&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Lenovo.DESKTOP-I0HH4JP/IdeaProjects/TestSwagLabs/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo.DESKTOP-I0HH4JP\IdeaProjects\TestSwagLabs\src\test\resources\Drivers" />
@@ -118,8 +132,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.testRunner" />
-        <item itemvalue="Cucumber Java.Feature: UserLogin" />
         <item itemvalue="Cucumber Java.Scenario: check user login functionality with valid credentials" />
+        <item itemvalue="Cucumber Java.Feature: UserLogin" />
+        <item itemvalue="JUnit.testRunner" />
+        <item itemvalue="Cucumber Java.Feature: UserLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +148,15 @@
       <option name="presentableId" value="Default" />
       <updated>1696868194847</updated>
     </task>
+    <task id="LOCAL-00001" summary="second commit, in this stage, i developed base class and hook file.">
+      <option name="closed" value="true" />
+      <created>1696873139871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696873139871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +169,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit, in this stage, i developed base class and hook file." />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit, in this stage, i developed base class and hook file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
