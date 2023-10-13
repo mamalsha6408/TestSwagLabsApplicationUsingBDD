@@ -1,5 +1,6 @@
 package Utilities;
 
+import PageObjects.ProductsPage;
 import PageObjects.UserLoginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -21,6 +22,7 @@ public class BaseClass {
 
     public static UserLoginPage userLoginPage;
 
+    public static ProductsPage productsPage;
 
     public static void setUpDriver(){
         if(driver==null){

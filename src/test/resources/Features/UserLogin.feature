@@ -7,3 +7,6 @@ Feature: feature to test user login
     And user enter password
     When user click login button
     Then user navigated to products page
+
+    And user select price low to high from sort list
+    Then user select add to cart button of backpack
